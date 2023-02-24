@@ -8,6 +8,32 @@
     <link rel="icon" href="./Assets/Logo/favicon.ico">
     <link rel="stylesheet" href="./CSS/index.css">
     <link rel="stylesheet" href="./CSS/navbar.css">
+    <script defer> 
+                function play()
+                {
+                    var cont=document.getElementsByTagName("video")
+                    cont [0].setAttribute("controls")
+                    cont [0].removeAttribute("muted")
+                    cont [1].setAttribute("controls")
+                    cont [1].removeAttribute("muted")
+                    cont [2].setAttribute("controls")
+                    cont [2].removeAttribute("muted")
+                    cont [3].setAttribute("controls")
+                    cont [3].removeAttribute("muted")
+                }
+                function stop()
+                {
+                    var cont=document.getElementsByTagName("video")
+                    cont [0].removeAttribute("controls")
+                    cont [0].setAttribute("muted")
+                    cont [1].removeAttribute("controls")
+                    cont [1].setAttribute("muted")
+                    cont [2].removeAttribute("controls")
+                    cont [2].setAttribute("muted")
+                    cont [3].removeAttribute("controls")
+                    cont [3].setAttribute("muted")
+                }
+            </script>
 </head>
 <body>
     <div id="header">
@@ -42,32 +68,6 @@
         </div>
         <div id="rightlayout">
             <video  id="rightvideo" src="./Assets/Video/Dubai.mp4" autoplay muted loop onfocus="play()" onblur="stop()"></video>
-            <script defer> 
-                function play()
-                {
-                    var cont=document.getElementsByTagName("video")
-                    cont [0].setAttribute("controls")
-                    cont [0].removeAttribute("muted")
-                    cont [1].setAttribute("controls")
-                    cont [1].removeAttribute("muted")
-                    cont [2].setAttribute("controls")
-                    cont [2].removeAttribute("muted")
-                    cont [3].setAttribute("controls")
-                    cont [3].removeAttribute("muted")
-                }
-                function stop()
-                {
-                    var cont=document.getElementsByTagName("video")
-                    cont [0].removeAttribute("controls")
-                    cont [0].setAttribute("muted")
-                    cont [1].removeAttribute("controls")
-                    cont [1].setAttribute("muted")
-                    cont [2].removeAttribute("controls")
-                    cont [2].setAttribute("muted")
-                    cont [3].removeAttribute("controls")
-                    cont [3].setAttribute("muted")
-                }
-            </script>
             <h1 id="rightheading">DUBAI</h1>
             <p id="rightpara">
                 Marhabaan and welcome to this beautiful footage of Dubai, U.A.E. in 4K by drone!!!!!
