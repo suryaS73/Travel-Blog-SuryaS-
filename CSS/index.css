@@ -59,7 +59,7 @@
 }
 #leftvideo:hover
 {
-    transform:scale(3);
+    transform:scale(1.5);
 }
 #leftheading
 {
@@ -106,7 +106,7 @@
 }
 #rightvideo:hover
 {
-    transform:scale(3);
+    transform:scale(1.5);
 }
 #rightheading
 {
