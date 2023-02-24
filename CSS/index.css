@@ -57,7 +57,7 @@
     border: 3px ridge black;
     transition:transform 0.5s;
 }
-#leftvideo:hover
+#leftvideo:active
 {
     transform:scale(3);
 }
@@ -104,7 +104,7 @@
     border: 3px ridge black;
     transition: transform 0.5s;
 }
-#rightvideo:hover
+#rightvideo:active
 {
     transform:scale(3);
 }
