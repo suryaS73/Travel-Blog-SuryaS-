@@ -55,6 +55,11 @@
     border-radius: 30px;
     box-shadow: 2px 2px 10px black;
     border: 3px ridge black;
+    transition:transform 0.5s;
+}
+#leftvideo:active
+{
+    transform:scale(3);
 }
 #leftheading
 {
@@ -97,6 +102,11 @@
     border-radius: 30px;
     box-shadow: 2px 2px 10px black;
     border: 3px ridge black;
+    transition: transform 0.5s;
+}
+#rightvideo:active
+{
+    transform:scale(3);
 }
 #rightheading
 {
