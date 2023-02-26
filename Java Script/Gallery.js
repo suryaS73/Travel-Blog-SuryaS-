@@ -1,6 +1,6 @@
 function colo()
 {
-    var col=["tiger.jpg","butterfly.jpg","lion.jpg","parrot.jpg","giraffe.jpg","swan.jpg","lotus.jpg","fish.jpg"]
+    var col=["tiger.jpg","butterly.jpg","lion.jpg","parrot.jpg","giraffe.jpg","swan.jpg","lotus.jpg","fish.jpg"]
     var len=col.length
     var ran=Math.random()*len
     var rannum=Math.round(ran)
