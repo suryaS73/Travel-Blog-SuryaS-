@@ -1,8 +1,6 @@
 function colo()
 {
-    var col=["Burj khalifa.jpg","pexels-aleksandar-pasaric-823696.jpg","pexels-kostiantyn-stupak-599982.jpg",
-    "pexels-max-avans-5087050.jpg","pexels-pixabay-460683.jpg",
-    "pexels-pixabay-460683.jpg"]
+    var col=["Burj khalifa.jpg","pexels-aleksandar-pasaric-823696.jpg","pexels-kostiantyn-stupak-599982.jpg", "pexels-max-avans-5087050.jpg","pexels-pixabay-460683.jpg","pexels-pixabay-460683.jpg"]
     var len=col.length
     var ran=Math.random()*len
     var rannum=Math.round(ran)
