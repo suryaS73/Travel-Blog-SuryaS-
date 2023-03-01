@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../CSS/loginpage.css">
+    <link rel="icon" href="../Assets/Logo/favicon.ico">
+    <script src="../Java Script/Loginpage.js" defer ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body id="bg">
+    <div id="background">
+          <form id="login">
+             <h1>LOGIN</h1><i class="fa-solid fa-pen-to-square" id="reg" onclick="reg()"></i>
+             <span id="result"></span>
+             <input type="email" placeholder="Email" id="email" >
+             <input type="password" placeholder="Password" id="password" >
+             <input type="button" id="submit" value="LOGIN" onclick="auth()">
+             <img src="../Assets/Images/hide 1.svg" id="show" onmousedown="vis()" onmouseup="hide()">
+             <a href="#">Forgot password?</a>
+             <div id="otherlogin">
+                  <i class="fa-brands fa-facebook" id="fb"></i>
+                  <i class="fa-brands fa-twitter" id="tw"></i>
+                  <i class="fa-brands fa-google" id="go"></i>
+             </div>
+        </form>
+        <form id="register">
+          <h1 id="regh">REGISTER</h1><i class="fa-solid fa-right-to-bracket" id="relog" onclick="relog()"></i>
+          <input type="email" placeholder="Email" id="regemail" required>
+          <input type="password" placeholder="Password" id="regpass" oninput="pass()" required>
+          <input type="password" placeholder="Re-Enter Password" id="cnfpass"   required>
+          <span id="strong"></span>
+          <input type="button" id="regbtn" value="Register" onclick="passreg()">
+          <img src="../Assets/Images/hide 1.svg" id="regshow" onmousedown="vis()" onmouseup="hide()">
+        </form>
+   </div>
+</body>
+</html>
