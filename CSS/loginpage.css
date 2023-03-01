@@ -1,0 +1,231 @@
+#bg
+{
+    background-image: linear-gradient(90deg,lightblue,mediumblue);
+    background-size: 100% 865px;
+    background-repeat: no-repeat;
+}
+*
+{
+    padding: 0px ;
+    margin: 0px;
+}
+#background
+{
+    width: 80%;
+    height: 600px;
+    background-image: linear-gradient(90deg,rgb(2, 2, 80),rgb(23, 175, 225));
+    position: relative;
+    left: 150px;
+    top: 100px;
+    border-radius: 50px;
+    box-shadow: 8px 8px 5px black,-8px -8px 5px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 1s;
+    color: white;
+    transition: all 5s;
+
+}
+#background:hover{
+    box-shadow: -8px -8px 5px black,8px 8px 5px white;
+}
+#login
+{
+    width: 40%;
+    height: 500px;
+    background-color: black;
+    border-radius: 30px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 32%;
+}
+h1{
+    position: absolute;
+    top: 20px;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+#email,#password
+{
+    width: 70%;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 30px;
+    outline: none;
+    background: transparent;
+    text-align: center;
+    color: white;
+}
+#email
+{
+    position: absolute;
+    top: 150px;
+}
+#password
+{
+    position: absolute;
+    top: 230px;
+}
+#show,#regshow
+{
+    width: 7%;
+    height: 7%;
+    background-color: white;
+    position: absolute;
+    top: 48%;
+    left: 75%;
+    opacity: 0.3;
+}
+#submit
+{
+    width: 27% ;
+    font-size: 24px;
+    position: absolute;
+    top: 330px;
+    padding: 0px 8px 0px 8px;
+    letter-spacing: 3px;
+    border-radius: 20px;
+    background-color: white;
+    border-width: 0px 0px 15px 0px;
+    border-color: blue;
+    color: black;
+    box-shadow: 0px 0px 3px white;
+}
+a{
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    color: white;
+    text-decoration: none;
+    font-size:15px;
+}
+#otherlogin
+{
+    position: absolute;
+    top: 430px;
+    color: white;
+    font-size: 30px;
+}
+#fb,#tw,#go
+{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#fb:hover
+{
+    color: blue;
+}
+#tw:hover
+{
+    color: skyblue;
+}
+#go:hover
+{
+    color: rgb(255, 72, 0);
+}
+#result
+{
+    color: red;
+    position: absolute;
+    top: 100px;
+}
+#reg
+{
+    font-size: 40px;
+    color: tomato;
+    position: absolute;
+    top: 85px;
+    left: 85%;
+    cursor: pointer;
+}
+#register
+{ 
+    width: 40%;
+    height: 500px;
+    background-color: maroon;
+    border-radius: 30px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 32%;
+    display: none;
+}
+#cnfpass,#regpass,#regemail
+{
+    width: 70%;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 30px;
+    border: 3px solid  blue;
+    outline: none;
+    background: transparent;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 15%;
+}
+#regh
+{
+    position: absolute;
+    left: 110px;
+}
+#regemail
+{
+    position: absolute;
+    top: 150px;
+}
+#relog
+{
+    position: absolute;
+    top: 90px;
+    left: 85%;
+    font-size: 40px;
+    cursor: pointer;
+}
+#relog:hover{
+    color: blue;
+}
+#regbtn
+{
+    width: 27% ;
+    font-size: 24px;
+    position: absolute;
+    top: 420px;
+    left: 40%;
+    padding: 8px 12px 8px 12px;
+    letter-spacing: 3px;
+    border-radius: 20px;
+    border: 3px solid green;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 3px white;
+    cursor: pointer;
+}
+#regpass
+{
+    position: absolute;
+    top: 230px;
+}
+#cnfpass
+{
+    position: absolute;   
+    top: 300px;
+}
+#strong
+{
+    font-size: 24px;
+    position: absolute;
+    top: 370px;
+    left: 100px;
+}

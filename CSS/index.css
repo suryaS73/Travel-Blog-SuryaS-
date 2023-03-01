@@ -1,0 +1,128 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+#header
+{
+    position: relative;
+    z-index: 1;
+    letter-spacing: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    font-size: 0px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../Assets/Images/clouds.png),url(../Assets/Images/clouds.png),url('../Assets/Images/samuel-bordo-Goirt63y1-8-unsplash.jpg');
+    background-size:40% 370px,40% 370px, 100% 600px;
+    background-repeat: no-repeat;
+    background-position:30% 100px,70% 110px, 0px  -50px;
+    transition: background-position 3s,color 5s, text-shadow 5s,font-size 5s;
+}
+#header:hover{
+    font-size: 30px;
+    color: black;
+    text-shadow: 2px 2px 5px skyblue,-2px -2px 5px yellow,0px 0px 10px black;
+    background-position:-130px -130px,1030px -130px,0px -50px;
+}
+#webbody
+{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 2000px;
+    background-color:  rgb(2, 2, 80);
+}
+#leftlayout
+{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    float: left;
+    z-index: 0;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 30px;
+    overflow-y: scroll;
+}
+#leftvideo
+{
+    width: 30%;
+    position: absolute;
+    left: 80px;
+    top: 25%;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px black;
+    border: 3px ridge black;
+    transition: transform 0.5s;
+}
+#leftvideo:hover{
+    transform: scale(1.2);
+}
+#leftheading
+{
+    position: absolute;
+    right: 23%;
+    top: 12%;
+    color: rgb(0, 191, 255);
+    font-size: 50px;
+}
+#leftpara
+{
+    font-size: 30px;
+    color: white;
+    width: 50%;
+    position: absolute;
+    right: 6%;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 35px;
+    top: 34%;
+}
+#rightlayout
+{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    z-index: 0;
+    float: left;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 30px;
+    overflow-y: scroll;
+
+}
+#rightvideo
+{
+    width: 30%;
+    position: absolute;
+    right: 80px;
+    top: 25%;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px black;
+    border: 3px ridge black;
+    transition:  transform 0.5s;
+}
+#rightvideo:hover{
+    transform: scale(1.2);
+}
+#rightheading
+{
+    position: absolute;
+    left: 23%;
+    top: 12%;
+    color: rgb(0, 191, 255);
+    font-size: 50px;
+}
+#rightpara
+{
+    font-size: 30px;
+    color: white;
+    width: 50%;
+    position: absolute;
+    left: 6%;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 35px;
+    top: 34%;
+}
